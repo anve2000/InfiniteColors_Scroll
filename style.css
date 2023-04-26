@@ -1,0 +1,41 @@
+*{
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    overflow: scroll;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    /* background-color: cadetblue; */
+    /* width: 80vw; */
+    height: 100vw;
+
+    padding: 10px;
+    /* border: 2px solid black; */
+    /* margin: 5px; */
+}
+
+
+.child{
+    background-color:white;
+    display: flex;
+    height: 55vh;
+    justify-content: space-around;
+    /* margin: 10px; */
+}
+
+.grandchild{
+    background-color: coral;
+    width: 30%;
+    height: 95%;
+    min-width: 100px;
+    min-height: 100px;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
